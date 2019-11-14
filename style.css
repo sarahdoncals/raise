@@ -1,0 +1,12 @@
+.container {
+    background-color: red;
+    width: 411px;
+    margin: auto;
+    height: 600px;
+}
+
+nav {
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+}
