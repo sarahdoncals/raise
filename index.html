@@ -8,30 +8,111 @@
     <title>raise</title>
 </head>
 <body>
+<div class="leftWall"></div>
 <div class="container">
     <nav>
         <div class="sTop">
-            <div class="hamburger"></div>
-            <div class="googleLogo"></div>
-            <div class="profilePic"></div>
+            <div class="hamburger">
+                <img src="./assets/hamburger.png" alt="">
+            </div>
+            <div class="googleLogo">
+                <img src="./assets/googleLogo.png" alt="">
+            </div>
+            <div class="profilePic">
+                <img src="./assets/profile.png" alt="">
+            </div>
         </div>
-        <div class="sInput">
-            <div class="button"></div>
+        <div class="sInputContainer">
+            <div class="sInput"><input type="text"><img class="sInputVoice" src="./assets/voice.png" alt=""></div>
+            <div class="sInputButton"><img class="sInputSearch" src="./assets/search.png" alt=""></div>
         </div>
-        <div class="sTabs"></div>
+        <div class="sTabs">
+            <ul>
+                <li class="all">ALL</li>
+                <li>CONNECT</li>
+                <li>NEWS</li>
+                <li>VIDEOS</li>
+                <li>IMAGES</li>
+                <li>MAPS</li>
+                <li>SHOP</li>
+            </ul>
+        </div>
     </nav>
     <div class="search">
-        <div class="alert"></div>
-        <div class="topstories">
-            <div class="story1"></div>
-            <div class="story2"></div>
-            <div class="storyCarosel"></div>
+        <div class="alert">
+            <p class="alTitle">SOS Alert</p>
+            <p class="alHurric">Hurricane Dorian</p>
+            <p class="alState">Florida</p>
         </div>
-        <div class="affectedareas"></div>
+        <div class="topstories">
+            <p class="tsTitle">TOP STORIES</p>
+            <div class="tsTitleBar"></div>
+            <div class="story1">
+                <div class="stTop">
+                    <p class="stPub">Washington Post</p>
+                    <p class="stTime">1 hour ago</p>
+                </div>
+                <p class="stTitle">Hurricane Dorian poised to land in the Carolinas after touching land on Florida and Georgia.</p>
+                <div class="stBar"></div>
+            </div>
+            <div class="story2">
+                <div class="stTop">
+                    <p class="stPub">CNN.com</p>
+                    <p class="stTime story2time">17 minutes ago</p>
+                </div>
+                <p class="stTitle">Hurricane Dorian threatens the US Coasts after touching the Bahamas: Live updates.</p>
+                <div class="stBar"></div>
+            </div>
+            <div class="storyCarousel">
+                <div class="cNews1">
+                    <div class="cNewsPub"><img src="./assets/NaplesDailyNews.png" alt=""></div>
+                    <div class="cNewsThumb"><img src="./assets/cNewsThumb1.png" alt=""></div>
+                    <div class="cNewsTitle">Food, Tents and Pet Supplies Heading...</div>
+                    <div class="cNewsTime">2 days ago</div>
+                </div>
+                <div class="cNews2">
+                        <div class="cNewsPub"><img  src="./assets/TheNewYorkTimes.png" alt=""></div>
+                        <div class="cNewsThumb"><img class="thumb2" src="./assets/cNewsThumb2.png" alt=""></div>
+                        <div class="cNewsTitle">Food, Tents and Pet Supplies Heading...</div>
+                        <div class="cNewsTime">2 days ago</div>
+                </div>
+            </div>
+            <div class="moreNewsBar"></div>
+            <p class="moreNews">More News</p>
+        </div>
+        <div class="affectedArea">
+            <p class="aaTitle">AFFECTED AREA</p>
+            <div class="aaMap"><img  src="./assets/affectedAreaMap.png" alt=""></div>
+            <div class="aaMapsBar">
+                <div class="aaMapsIcon"><img  src="./assets/mapIcon.png" alt=""></div>
+                <p class="aaMapsText">See more on Google Maps</p>
+            </div>
+            <div class="aaBar"></div>
+            <div class="aaSource">Source: National Oceanic and Atmospheric Administration</div>
+        </div>
         <div class="communitystories"></div>
     </div>
 
 </div>
-    
+
+<div class="rightWall"></div>
 </body>
+
+<!-- dont judge me i was bored -->
+<script>
+var styles = [
+    'background: linear-gradient(#D33106, #571402)'
+    , 'border: 1px solid #3E0E02'
+    , 'color: white'
+    , 'display: block'
+    , 'text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3)'
+    , 'box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset'
+    , 'line-height: 40px'
+    , 'text-align: center'
+    , 'font-weight: bold'
+].join(';');
+
+console.log('%c beautiful handwritten code by someone ', styles);
+</script>
+
 </html>
