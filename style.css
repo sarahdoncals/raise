@@ -22,7 +22,6 @@ body {
 
 nav {
     height: 150px;
-    width: 100%;
     background-color: white;
     box-shadow: 0 4px 2px -2px #DADADA;
 
@@ -517,7 +516,6 @@ nav {
     margin-left: 20px;
 }
 
-
 .csBox {
     height: 116px;
     width: 237px;
@@ -586,3 +584,120 @@ nav {
     width: 25px;
     height: 25px;
 }
+
+.nav2 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    margin-left: -14px;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #545454;
+}
+
+.nav2item {
+    margin-left: 40px;
+}
+
+.nav2item:hover {
+    cursor: pointer;
+}
+
+.moreNav {
+    height: 123px !important;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    
+}
+
+.activeNavItem {
+    color: #3771E0 !important;
+    font-weight: 500;
+}
+
+.blueDiv {
+    height: 3px;
+    width: 54px;
+    margin-top: 16px;
+    margin-left: -5px;
+    background-color: #3771E0;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.googleLogo2 img{
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+}
+
+.TWOmap {
+    background-image: url("./assets/2map.png");
+    width: 411px;
+    height: 436px;
+    background-size: contain;
+    margin-top: 123px;
+}
+
+.TWOaddStory {
+    height: 40px;
+    width: 130px;
+    background-color: #3771E0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-left: 140.5px;
+    position: absolute;
+    margin-top: 375px;
+}
+
+.TWOaddStory:hover {
+    cursor: pointer;
+}
+
+.TWOmapPlus {
+    height: 25px;
+    width: 25px;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.TWOmapText {
+    display: flex;
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.TWOlittleBar {
+    height: 3px;
+    width: 20px;
+    border-radius: 2px;
+    background-color: #DADADA;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.TWOcsTop {
+    display: flex;
+    margin-left: 65px;
+}
+
+.TWOcsTopText {
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 10px
+}
+
+.TWOcsChevron {
+    width: 23px;
+    height: 23px;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+
