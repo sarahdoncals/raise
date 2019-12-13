@@ -689,7 +689,7 @@ nav {
 .TWOcsTopText {
     font-family: 'Roboto', sans-serif;    
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     padding-bottom: 10px
 }
@@ -701,3 +701,194 @@ nav {
     margin-left: 2px;
 }
 
+.TWOdiscussionThreads {
+    width: 383px;
+    height: 195px;
+    border-radius: 8px;
+    border: 1px solid rgba(176, 176, 176, 0.2);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 350px;
+}
+
+.TWOdTop {
+    display: flex;
+}
+
+.TWOdArrow {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.TWOdArrow:hover {
+    cursor: pointer;
+}
+
+.TWOdTitle {
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 185px;
+    margin-top: 15px;
+}
+
+.TWOdBar {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(176, 176, 176, 0.2)
+}
+
+.TWOdThreadTitle {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #3771E0;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.TWOdChevron {
+    opacity: 0.4;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 335px;
+    top: 1104px;
+}
+
+.TWOdChevron2 {
+    opacity: 0.4;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 335px;
+    top: 1180px;
+}
+
+.TWOdThreadBottom {
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #545454;
+    display: flex;
+    margin-left: 15px;
+    margin-top: -12px;
+}
+
+.TWOdUpdate {
+    margin-left: 25px;
+}
+
+.TWOdThread:hover {
+    cursor: pointer;
+}
+
+.TWOpastStories {
+    margin: auto;
+}
+
+.TWOsTop {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.TWOsTopTitle {
+    font-size: 14px;
+    margin-right: 170px;
+}
+
+.TWOsArrow {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    
+}
+
+.TWOsArrow:hover {
+    cursor: pointer;
+}
+
+.TWOsStory {
+    width: 383px;
+    height: 139px;
+    border-radius: 8px;
+    background-image: url("./assets/story1.png");
+    background-size: contain;
+    box-shadow: 0px 2px 4px #E2E2E2;
+    color: white;
+    margin: auto;
+}
+
+.TWOsStory1 {
+    background-image: url("./assets/story1.png");
+}
+
+.TWOsStory2 {
+    background-image: url("./assets/story2.png");
+}
+
+.TWOsStory p {
+    margin-left: 15px;
+}
+
+.TWOsStoryTitle {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 87px;
+}
+
+.TWOsStoryDesc {
+    margin-top: -15px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.THREEfilterBar {
+    margin:auto;
+    margin-top: 125px;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    position: absolute;
+}
+
+.THREEfilterImg {
+    width: 24px;
+    height: 24px;
+}
+
+.THREEfilterSearch {
+    width: 44px;
+    height: 33px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgba(176, 176, 176, 0.2);
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+
+.THREEfilterItem {
+    font-size: 14px;
+    color: #545454;
+    padding: 8px 12px 8px 12px;
+    border: 1px solid rgba(176, 176, 176, 0.2);
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 12px;
+}
+
+.THREEfilterBar img:hover, .THREEfilterBar p:hover {
+    cursor: pointer;
+}
+
+.THREEresults {
+    font-size: 12px;
+    color: #545454;
+    margin-top: 190px;
+    margin-left: 15px;
+}
