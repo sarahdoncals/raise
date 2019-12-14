@@ -598,6 +598,8 @@ nav {
 
 .nav2item {
     margin-left: 40px;
+    text-decoration: none;
+    color: #545454;
 }
 
 .nav2item:hover {
@@ -997,4 +999,79 @@ nav {
 
 .THREEdonationDonate:hover, .THREEdonationRaise:hover {
     cursor: pointer;
+}
+
+.FOURsuggestionBar {
+    margin-top: 175px;
+    display: flex;
+    font-size: 12px;
+    position: absolute;
+    color: #3771E0;
+}
+
+.FOURsuggestion {
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.FOURcurrent {
+    margin-top: 230px;
+}
+
+.FOURcurrentTitle {
+    font-size: 18px;
+    color: #545454;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: 190px;
+}
+
+.FOURcTop {
+    margin-bottom: -15px;
+}
+
+.FOURstory1 {
+    background-image: url("./assets/current1.png");
+    width: 395px !important;
+}
+
+.FOURstory2 {
+    background-image: url("./assets/current2.png");
+    width: 395px !important;
+}
+
+.FOURpast {
+    position: absolute;
+}
+
+.FOURpast1, .FOURpast2 {
+    height: 166px;
+    width: 222px;
+}
+
+.FOURpastContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.FOURpast1 {
+    background-image: url("./assets/past1.png");
+}
+
+.FOURpast2 {
+    background-image: url("./assets/past2.png");
+    margin-left: 10px;
+}
+
+.FOURpastTitle {
+    margin-right: 165px;
+}
+
+.connect {
+    text-decoration: none;
+    color: black;
 }
