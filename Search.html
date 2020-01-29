@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="flickity.min.css" media="screen">
     <title>Google Raise - Search</title>
 </head>
 <body>
@@ -63,22 +65,28 @@
                 <p class="stTitle">Hurricane Dorian threatens the US Coasts after touching the Bahamas: Live updates.</p>
                 <div class="stBar"></div>
             </div>
-            <div class="storyCarousel">
-                <div class="cNews1">
+            <div class="storyCarousel main-carousel">
+                <div class="cNews1 carousel-cell">
                     <div class="cNewsPub"><img src="./assets/NaplesDailyNews.png" alt=""></div>
                     <div class="cNewsThumb"><img src="./assets/cNewsThumb1.png" alt=""></div>
                     <div class="cNewsTitle">Food, Tents and Pet Supplies Heading...</div>
                     <div class="cNewsTime">2 days ago</div>
                 </div>
-                <div class="cNews2">
+                <div class="cNews2 carousel-cell">
                         <div class="cNewsPub"><img  src="./assets/TheNewYorkTimes.png" alt=""></div>
                         <div class="cNewsThumb"><img class="thumb2" src="./assets/cNewsThumb2.png" alt=""></div>
                         <div class="cNewsTitle">Food, Tents and Pet Supplies Heading...</div>
                         <div class="cNewsTime">2 days ago</div>
                 </div>
+                <div class="cNews3 carousel-cell">
+                    <div class="cNewsPub"><img src="./assets/NaplesDailyNews.png" alt=""></div>
+                    <div class="cNewsThumb"><img src="./assets/cNewsThumb1.png" alt=""></div>
+                    <div class="cNewsTitle">Food, Tents and Pet Supplies Heading...</div>
+                    <div class="cNewsTime">2 days ago</div>
+                </div>
             </div>
             <div class="moreNewsBar"></div>
-            <p class="moreNews">More News</p>
+            <!-- <p class="moreNews">More News</p> -->
         </div>
         <div class="affectedArea">
             <p class="aaTitle">AFFECTED AREA</p>
@@ -97,8 +105,8 @@
                 <p class="csAdd">Add story</p>
             </div>
             <div class="csContainer">
-                <div class="csCarousel">
-                    <div class="csStory1">
+                <div class="csCarousel main-carousel">
+                    <div class="csStory1 carousel-cell">
                         <div class="csBox">
                             <p class="csStoryDesc">Cars are swimming around in my neighborhood!</p>
                             <div class="csStoryBottom">
@@ -107,9 +115,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="csStory2">
+                    <div class="csStory2 carousel-cell">
                         <div class="csBox">
                             <p class="csStoryDesc">Community in action: neighbors helping neighbors.</p>
+                            <div class="csStoryBottom">
+                                <p class="csStoryDistance">0.7 miles away</p>
+                                <p class="csStoryTime">30 minutes ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="csStory1 carousel-cell">
+                        <div class="csBox">
+                            <p class="csStoryDesc">Cars are swimming around in my neighborhood!</p>
                             <div class="csStoryBottom">
                                 <p class="csStoryDistance">0.7 miles away</p>
                                 <p class="csStoryTime">30 minutes ago</p>
@@ -130,22 +147,11 @@
 <div class="rightWall"></div>
 </body>
 
-<!-- dont judge me i was bored -->
-<script>
-var styles = [
-    'background: linear-gradient(#D33106, #571402)'
-    , 'border: 1px solid #3E0E02'
-    , 'color: white'
-    , 'display: block'
-    , 'text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3)'
-    , 'box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset'
-    , 'line-height: 40px'
-    , 'text-align: center'
-    , 'font-weight: bold'
-].join(';');
-
-console.log('%c Youre looking at the man 🥵', styles);
-// yee yee
-</script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="flickity.pkgd.min.js"></script>
+<script src="script.js"></script>
 
 </html>
