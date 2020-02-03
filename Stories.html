@@ -52,8 +52,8 @@
             <p class="TWOcsTopText">Explore some of the Community Stories</p>
             <img src="./assets/chevron.png" class="TWOcsChevron">
         </div>
-        <div class="csCarousel">
-            <div class="csStory1">
+        <div class="csCarousel main-carousel">
+            <div class="csStory1 carousel-cell">
                 <div class="csBox">
                     <p class="csStoryDesc">Cars are swimming around in my neighborhood!</p>
                     <div class="csStoryBottom">
@@ -62,9 +62,18 @@
                     </div>
                 </div>
             </div>
-            <div class="csStory2">
+            <div class="csStory2 carousel-cell">
                 <div class="csBox">
                     <p class="csStoryDesc">Community in action: neighbors helping neighbors.</p>
+                    <div class="csStoryBottom">
+                        <p class="csStoryDistance">0.7 miles away</p>
+                        <p class="csStoryTime">30 minutes ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="csStory1 carousel-cell">
+                <div class="csBox">
+                    <p class="csStoryDesc">Cars are swimming around in my neighborhood!</p>
                     <div class="csStoryBottom">
                         <p class="csStoryDistance">0.7 miles away</p>
                         <p class="csStoryTime">30 minutes ago</p>
@@ -117,7 +126,12 @@
 <div class="rightWall"></div>
 </body>
 
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 <script src="flickity.pkgd.min.js"></script>
+<script src="script.js"></script>
 
 
 </html>
